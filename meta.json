@@ -1,0 +1,78 @@
+{
+  "routes": {
+    "home": {
+      "path": "/",
+      "method": "get",
+      "page": "home",
+      "label": "Home",
+      "component": "SinglePage",
+      "order": 0,
+      "priority": 1,
+      "action": {
+        "name": "example",
+        "params": {
+          "resource": "home",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/home.md",
+          "format": "markdown",
+          "prefetch": "server",
+          "pageTitle": "An Example Isomorphic Application"
+        }
+      }
+    },
+    "about": {
+      "path": "/about",
+      "method": "get",
+      "page": "about",
+      "label": "About",
+      "component": "SinglePage",
+      "order": 1,
+      "priority": 1,
+      "action": {
+        "name": "example",
+        "params": {
+          "resource": "about",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/about.md",
+          "format": "markdown",
+          "prefetch": "client",
+          "pageTitle": "About"
+        }
+      }
+    },
+    "contact": {
+      "path": "/contact",
+      "method": "get",
+      "page": "contact",
+      "label": "Contact",
+      "component": "SinglePage",
+      "order": 2,
+      "priority": 1,
+      "action": {
+        "name": "example",
+        "params": {
+          "resource": "contact",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.md",
+          "format": "markdown",
+          "prefetch": false,
+          "pageTitle": "Contact"
+        }
+      }
+    }
+  },
+  "business": {
+    "LocalBusiness": {
+      "legalName": "LocalNerve, LLC",
+      "alternateName": "LocalNerve",
+      "url": "http://localnerve.com",
+      "telephone": "207-370-8005",
+      "email": "alex@localnerve.com",
+      "address": {
+        "streetAddress": "PO BOX 95",
+        "addressRegion": "ME",
+        "addressLocality": "Windham",
+        "addressCountry": "USA",
+        "postalCode": "04062",
+        "postOfficeBoxNumber": "95"
+      }
+    }
+  }
+}
