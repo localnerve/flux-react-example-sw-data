@@ -1,0 +1,17 @@
+{
+  "LocalBusiness": {
+    "legalName": "LocalNerve, LLC",
+    "alternateName": "LocalNerve",
+    "url": "http://localnerve.com",
+    "telephone": "207-370-8005",
+    "email": "alex@localnerve.com",
+    "address": {
+      "streetAddress": "PO BOX 95",
+      "addressRegion": "ME",
+      "addressLocality": "Windham",
+      "addressCountry": "USA",
+      "postalCode": "04062",
+      "postOfficeBoxNumber": "95"
+    }
+  }
+}
