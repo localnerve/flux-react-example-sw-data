@@ -9,7 +9,7 @@
       "order": 0,
       "priority": 1,
       "action": {
-        "name": "example",
+        "name": "page",
         "params": {
           "resource": "home",
           "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/home.md",
@@ -28,7 +28,7 @@
       "order": 1,
       "priority": 1,
       "action": {
-        "name": "example",
+        "name": "page",
         "params": {
           "resource": "about",
           "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/about.md",
@@ -47,7 +47,7 @@
       "order": 2,
       "priority": 1,
       "action": {
-        "name": "example",
+        "name": "page",
         "params": {
           "resource": "contact",
           "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.md",
