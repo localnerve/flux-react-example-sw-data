@@ -6,6 +6,7 @@
       "page": "home",
       "label": "Home",
       "component": "SinglePage",
+      "mainNav": true,
       "order": 0,
       "priority": 1,
       "action": {
@@ -25,6 +26,7 @@
       "page": "about",
       "label": "About",
       "component": "SinglePage",
+      "mainNav": true,
       "order": 1,
       "priority": 1,
       "action": {
@@ -44,6 +46,7 @@
       "page": "contact",
       "label": "Contact",
       "component": "SinglePage",
+      "mainNav": true,
       "order": 2,
       "priority": 1,
       "action": {

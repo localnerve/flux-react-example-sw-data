@@ -1,5 +1,3 @@
-# Contact
-
 ## Contact Me
 
 I love helping people, it's what I do. If you are interested in creating an app like this or need consultation, drop me a line!

@@ -1,5 +1,3 @@
-# About
-
 ## About This Demo
 
 This is an example about page.

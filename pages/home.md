@@ -1,5 +1,3 @@
-# An Example Isomorphic Application
-
 ## Welcome To The Demo
 
 PedalPulse is an example isomorphic application that demonstrates a high performance app that uses multiple services and a quality process.
