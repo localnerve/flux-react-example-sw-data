@@ -53,8 +53,8 @@
         "name": "page",
         "params": {
           "resource": "contact",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.md",
-          "format": "markdown",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.html",
+          "format": "markup",
           "prefetch": false,
           "pageTitle": "Contact"
         }
