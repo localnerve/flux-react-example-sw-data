@@ -7,6 +7,8 @@
       {
         "step": 0,
         "name": "name",
+        "valueElement": 0,
+        "previousElement": -1,
         "container": {
           "tagName": "form",
           "props": {
@@ -22,25 +24,40 @@
             "key": "name-label"
           }
         },
-        "element": {
-          "tagName": "input",
-          "props": {
-            "type": "text",
-            "title": "Name",
-            "id": "name-input",
-            "key": "name-input",
-            "ref": "name",
-            "name": "name-input",
-            "placeholder": "Enter your name",
-            "autofocus": true,
-            "required": true,
-            "aria-required": true
+        "elements": [
+          {
+            "tagName": "input",
+            "props": {
+              "type": "text",
+              "title": "Name",
+              "id": "name-input",
+              "name": "name-input",
+              "key": "name-input",
+              "ref": "name",
+              "placeholder": "Enter your name",
+              "autofocus": true,
+              "required": true,
+              "aria-required": true
+            }          
+          },
+          {
+            "tagName": "input",
+            "props": {
+              "type": "submit",
+              "title": "Continue here after you've filled out all form elements",
+              "id": "submit",
+              "name": "submit",
+              "key": "name-submit",
+              "value": "Next"
+            }
           }
-        }
+        ]
       },
       {
         "step": 1,
         "name": "email",
+        "valueElement": 0,
+        "previousElement": 1,
         "container": {
           "tagName": "form",
           "props": {
@@ -56,25 +73,51 @@
             "key": "email-label"
           }
         },
-        "element": {
-          "tagName": "input",
-          "props": {
-            "type": "email",
-            "title": "Email",
-            "id": "email-input",
-            "key": "email-input",
-            "ref": "email",
-            "name": "email-input",
-            "placeholder": "Enter your email address",
-            "autofocus": true,
-            "required": true,
-            "aria-required": true
+        "elements": [
+          {
+            "tagName": "input",
+            "props": {
+              "type": "email",
+              "title": "Email",
+              "id": "email-input",
+              "name": "email-input",
+              "key": "email-input",
+              "ref": "email",
+              "placeholder": "Enter your email address",
+              "autofocus": true,
+              "required": true,
+              "aria-required": true
+            }
+          },
+          {
+            "tagName": "input",
+            "props": {
+              "type": "button",
+              "title": "Press here if you would like to go back to the previous form",
+              "id": "previous",
+              "name": "previous",
+              "key": "email-previous",
+              "value": "Previous"
+            }
+          },
+          {
+            "tagName": "input",
+            "props": {
+              "type": "submit",
+              "title": "Continue here after you've filled out all form elements",
+              "id": "submit",
+              "name": "submit",
+              "key": "email-submit",
+              "value": "Next"
+            }
           }
-        }
+        ]
       },
       {
         "step": 2,
         "name": "message",
+        "valueElement": 0,
+        "previousElement": 1,
         "container": {
           "tagName": "form",
           "props": {
@@ -90,24 +133,50 @@
             "key": "message-label"
           }
         },
-        "element": {
-          "tagName": "textarea",
-          "props": {
-            "id": "message-input",
-            "name": "message-input",
-            "key": "message-input",
-            "ref": "message",
-            "title": "Message",
-            "placeholder": "Enter your message",
-            "autofocus": true,
-            "required": true,
-            "aria-required": true
-          }
-        }
+        "elements": [
+          {
+            "tagName": "textarea",
+            "props": {
+              "id": "message-input",
+              "name": "message-input",
+              "key": "message-input",
+              "ref": "message",
+              "title": "Message",
+              "placeholder": "Enter your message",
+              "autofocus": true,
+              "required": true,
+              "aria-required": true
+            }
+          },
+          {
+            "tagName": "input",
+            "props": {
+              "type": "button",
+              "title": "Press here if you would like to go back to the previous form",
+              "id": "previous",
+              "name": "previous",
+              "key": "message-previous",
+              "value": "Previous"
+            }
+          },
+          {
+            "tagName": "input",
+            "props": {
+              "type": "submit",
+              "title": "Continue here after you've filled out all form elements",
+              "id": "submit",
+              "name": "submit",
+              "key": "message-submit",
+              "value": "Submit"
+            }
+          }          
+        ]
       },
       {
         "step": 3,
         "name": "result",
+        "valueElement": 0,
+        "previousElement": -1,
         "container": {
           "tagName": "div",
           "props": {
@@ -122,14 +191,16 @@
             "key": "result-label"
           }
         },
-        "element": {
-          "tagName": "p",
-          "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
-          "props": {
-            "key": "result-element",
-            "ref": "result"
+        "elements": [
+          {
+            "tagName": "p",
+            "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
+            "props": {
+              "key": "result-element",
+              "ref": "result"
+            }
           }
-        }
+        ]
       }
     ]
   }
