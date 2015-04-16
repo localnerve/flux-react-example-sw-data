@@ -1,0 +1,132 @@
+{
+  "contact": {
+    "name": "contact",
+    "headingText": "Contact Me",
+    "introductionText": "Interested in creating an app like this? Drop me a line!",
+    "steps": [
+      {
+        "step": 0,
+        "name": "name",
+        "container": {
+          "tagName": "form",
+          "props": {
+            "key": "contact-form",
+            "className": "contact-form"
+          }
+        },
+        "description": {
+          "tagName": "label",
+          "text": "What is your name?",
+          "props": {
+            "htmlFor": "name-input",
+            "key": "name-label"
+          }
+        },
+        "element": {
+          "tagName": "input",
+          "props": {
+            "type": "text",
+            "title": "Name",
+            "id": "name-input",
+            "key": "name-input",
+            "name": "name-input",
+            "placeholder": "Enter your name",
+            "autofocus": true,
+            "required": true,
+            "aria-required": true
+          }
+        }
+      },
+      {
+        "step": 1,
+        "name": "email",
+        "container": {
+          "tagName": "form",
+          "props": {
+            "key": "contact-form",
+            "className": "contact-form"
+          }
+        },        
+        "description": {
+          "tagName": "label",
+          "text": "What is your email?",
+          "props": {
+            "htmlFor": "email-input",
+            "key": "email-label"
+          }
+        },
+        "element": {
+          "tagName": "input",
+          "props": {
+            "type": "email",
+            "title": "Email",
+            "id": "email-input",
+            "key": "email-input",
+            "name": "email-input",
+            "placeholder": "Enter your email address",
+            "autofocus": true,
+            "required": true,
+            "aria-required": true
+          }
+        }
+      },
+      {
+        "step": 2,
+        "name": "message",
+        "container": {
+          "tagName": "form",
+          "props": {
+            "key": "contact-form",
+            "className": "contact-form"
+          }
+        },        
+        "description": {
+          "tagName": "label",
+          "text": "What is your message?",
+          "props": {
+            "htmlFor": "message-input",
+            "key": "message-label"
+          }
+        },
+        "element": {
+          "tagName": "textarea",
+          "props": {
+            "id": "message-input",
+            "name": "message-input",
+            "key": "message-input",
+            "title": "Message",
+            "placeholder": "Enter your message",
+            "autofocus": true,
+            "required": true,
+            "aria-required": true
+          }
+        }
+      },
+      {
+        "step": 3,
+        "name": "result",
+        "container": {
+          "tagName": "div",
+          "props": {
+            "key": "contact-result",
+            "className": "contact-result"
+          }
+        },        
+        "description": {
+          "tagName": "span",
+          "text": "Thank you!",
+          "props": {
+            "key": "result-label"
+          }
+        },
+        "element": {
+          "tagName": "p",
+          "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
+          "props": {
+            "key": "result-element"
+          }
+        }
+      }
+    ]
+  }
+}
