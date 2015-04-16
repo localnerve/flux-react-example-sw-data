@@ -49,7 +49,7 @@
       "method": "get",
       "page": "contact",
       "label": "Contact",
-      "component": "SinglePage",
+      "component": "Contact",
       "mainNav": true,
       "order": 2,
       "priority": 1,
