@@ -35,7 +35,7 @@
               "key": "name-input",
               "ref": "name",
               "placeholder": "Enter your name",
-              "autofocus": true,
+              "autoFocus": true,
               "required": true,
               "aria-required": true
             }          
@@ -84,7 +84,7 @@
               "key": "email-input",
               "ref": "email",
               "placeholder": "Enter your email address",
-              "autofocus": true,
+              "autoFocus": true,
               "required": true,
               "aria-required": true
             }
@@ -143,7 +143,7 @@
               "ref": "message",
               "title": "Message",
               "placeholder": "Enter your message",
-              "autofocus": true,
+              "autoFocus": true,
               "required": true,
               "aria-required": true
             }
