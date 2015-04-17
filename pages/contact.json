@@ -3,16 +3,16 @@
     "name": "contact",
     "headingText": "Contact Me",
     "introductionText": "Interested in creating an app like this? Drop me a line!",
+    "stepFinal": 3,
     "steps": [
       {
         "step": 0,
         "name": "name",
-        "valueElement": 0,
         "previousElement": -1,
         "container": {
           "tagName": "form",
           "props": {
-            "key": "contact-form",
+            "key": "contact-form-name",
             "className": "contact-form"
           }
         },
@@ -24,44 +24,53 @@
             "key": "name-label"
           }
         },
-        "elements": [
-          {
-            "tagName": "input",
-            "props": {
-              "type": "text",
-              "title": "Name",
-              "id": "name-input",
-              "name": "name-input",
-              "key": "name-input",
-              "ref": "name",
-              "placeholder": "Enter your name",
-              "autoFocus": true,
-              "required": true,
-              "aria-required": true
-            }          
-          },
-          {
-            "tagName": "input",
-            "props": {
-              "type": "submit",
-              "title": "Continue here after you've filled out all form elements",
-              "id": "submit",
-              "name": "submit",
-              "key": "name-submit",
-              "value": "Next"
-            }
+        "value": {
+          "tagName": "input",
+          "props": {
+            "type": "text",
+            "title": "Name",
+            "id": "name-input",
+            "name": "name-input",
+            "key": "name-input",
+            "ref": "name",
+            "className": "form-value-element",
+            "placeholder": "Enter your name",
+            "autoFocus": true,
+            "required": true,
+            "aria-required": true
           }
-        ]
+        },
+        "navigation": {
+          "container": {
+            "tagName": "div",
+            "props": {
+              "className": "form-navigation",
+              "key": "form-navigation-name"
+            }
+          },
+          "elements": [
+            {
+              "tagName": "input",
+              "props": {
+                "type": "submit",
+                "title": "Continue here after you've filled out all form elements",
+                "id": "submit",
+                "name": "submit",
+                "key": "name-submit",
+                "value": "Next"
+              }
+            }
+          ]
+        }
       },
       {
         "step": 1,
         "name": "email",
-        "valueElement": 0,
-        "previousElement": 1,
+        "previousElement": 0,
         "container": {
           "tagName": "form",
           "props": {
-            "key": "contact-form",
+            "key": "contact-form-email",
             "className": "contact-form"
           }
         },        
@@ -73,55 +82,64 @@
             "key": "email-label"
           }
         },
-        "elements": [
-          {
-            "tagName": "input",
-            "props": {
-              "type": "email",
-              "title": "Email",
-              "id": "email-input",
-              "name": "email-input",
-              "key": "email-input",
-              "ref": "email",
-              "placeholder": "Enter your email address",
-              "autoFocus": true,
-              "required": true,
-              "aria-required": true
-            }
-          },
-          {
-            "tagName": "input",
-            "props": {
-              "type": "button",
-              "title": "Press here if you would like to go back to the previous form",
-              "id": "previous",
-              "name": "previous",
-              "key": "email-previous",
-              "value": "Previous"
-            }
-          },
-          {
-            "tagName": "input",
-            "props": {
-              "type": "submit",
-              "title": "Continue here after you've filled out all form elements",
-              "id": "submit",
-              "name": "submit",
-              "key": "email-submit",
-              "value": "Next"
-            }
+        "value": {
+          "tagName": "input",
+          "props": {
+            "type": "email",
+            "title": "Email",
+            "id": "email-input",
+            "name": "email-input",
+            "key": "email-input",
+            "ref": "email",
+            "className": "form-value-element",
+            "placeholder": "Enter your email address",
+            "autoFocus": true,
+            "required": true,
+            "aria-required": true
           }
-        ]
+        },
+        "navigation": {
+          "container": {
+            "tagName": "div",
+            "props": {
+              "key": "form-navigation-email",
+              "className": "form-navigation"
+            }
+          },
+          "elements": [
+            {
+              "tagName": "input",
+              "props": {
+                "type": "button",
+                "title": "Press here if you would like to go back to the previous form",
+                "id": "previous",
+                "name": "previous",
+                "key": "email-previous",
+                "value": "Previous"
+              }
+            },
+            {
+              "tagName": "input",
+              "props": {
+                "type": "submit",
+                "title": "Continue here after you've filled out all form elements",
+                "id": "submit",
+                "name": "submit",
+                "key": "email-submit",
+                "value": "Next"
+              }
+            }
+          ]
+        }
       },
       {
         "step": 2,
         "name": "message",
-        "valueElement": 0,
-        "previousElement": 1,
+        "previousElement": 0,
         "container": {
           "tagName": "form",
           "props": {
-            "key": "contact-form",
+            "key": "contact-form-message",
             "className": "contact-form"
           }
         },        
@@ -133,44 +151,54 @@
             "key": "message-label"
           }
         },
-        "elements": [
-          {
-            "tagName": "textarea",
+        "value": {
+          "tagName": "textarea",
+          "props": {
+            "id": "message-input",
+            "name": "message-input",
+            "key": "message-input",
+            "ref": "message",
+            "className": "form-value-element",
+            "title": "Message",
+            "placeholder": "Enter your message",
+            "autoFocus": true,
+            "required": true,
+            "aria-required": true
+          }
+        },
+        "navigation": {
+          "container": {
+            "tagName": "div",
             "props": {
-              "id": "message-input",
-              "name": "message-input",
-              "key": "message-input",
-              "ref": "message",
-              "title": "Message",
-              "placeholder": "Enter your message",
-              "autoFocus": true,
-              "required": true,
-              "aria-required": true
+              "key": "form-navigation-message",
+              "className": "form-navigation"
             }
           },
-          {
-            "tagName": "input",
-            "props": {
-              "type": "button",
-              "title": "Press here if you would like to go back to the previous form",
-              "id": "previous",
-              "name": "previous",
-              "key": "message-previous",
-              "value": "Previous"
+          "elements": [
+            {
+              "tagName": "input",
+              "props": {
+                "type": "button",
+                "title": "Press here if you would like to go back to the previous form",
+                "id": "previous",
+                "name": "previous",
+                "key": "message-previous",
+                "value": "Previous"
+              }
+            },
+            {
+              "tagName": "input",
+              "props": {
+                "type": "submit",
+                "title": "Continue here after you've filled out all form elements",
+                "id": "submit",
+                "name": "submit",
+                "key": "message-submit",
+                "value": "Submit"
+              }
             }
-          },
-          {
-            "tagName": "input",
-            "props": {
-              "type": "submit",
-              "title": "Continue here after you've filled out all form elements",
-              "id": "submit",
-              "name": "submit",
-              "key": "message-submit",
-              "value": "Submit"
-            }
-          }          
-        ]
+          ]
+        }
       },
       {
         "step": 3,
@@ -191,16 +219,14 @@
             "key": "result-label"
           }
         },
-        "elements": [
-          {
-            "tagName": "p",
-            "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
-            "props": {
-              "key": "result-element",
-              "ref": "result"
-            }
+        "value": {
+          "tagName": "p",
+          "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
+          "props": {
+            "key": "result-element",
+            "ref": "result"
           }
-        ]
+        }
       }
     ]
   }
