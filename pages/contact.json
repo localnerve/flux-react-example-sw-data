@@ -219,6 +219,7 @@
         "value": {
           "tagName": "p",
           "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
+          "failureText": "Whoops! Our contact service is down.",
           "props": {
             "key": "result-element"
           }
