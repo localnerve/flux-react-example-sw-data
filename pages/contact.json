@@ -212,6 +212,7 @@
         "description": {
           "tagName": "span",
           "text": "Thank you!",
+          "failureText": "Whoops!",
           "props": {
             "key": "result-label"
           }
@@ -219,7 +220,7 @@
         "value": {
           "tagName": "p",
           "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
-          "failureText": "Whoops! Our contact service is down.",
+          "failureText": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly.",
           "props": {
             "key": "result-element"
           }
