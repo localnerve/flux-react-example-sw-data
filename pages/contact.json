@@ -57,7 +57,8 @@
                 "name": "submit",
                 "key": "name-submit",
                 "value": "Next"
-              }
+              },
+              "text": "Next"
             }
           ]
         }
@@ -115,7 +116,8 @@
                 "name": "previous",
                 "key": "email-previous",
                 "value": "Previous"
-              }
+              },
+              "text": "Back"
             },
             {
               "tagName": "button",
@@ -126,7 +128,8 @@
                 "name": "submit",
                 "key": "email-submit",
                 "value": "Next"
-              }
+              },
+              "text": "Next"
             }
           ]
         }
@@ -183,7 +186,8 @@
                 "name": "previous",
                 "key": "message-previous",
                 "value": "Previous"
-              }
+              },
+              "text": "Back"
             },
             {
               "tagName": "button",
@@ -194,7 +198,8 @@
                 "name": "submit",
                 "key": "message-submit",
                 "value": "Submit"
-              }
+              },
+              "text": "Submit"
             }
           ]
         }
