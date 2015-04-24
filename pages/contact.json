@@ -49,7 +49,7 @@
           },
           "elements": [
             {
-              "tagName": "input",
+              "tagName": "button",
               "props": {
                 "type": "submit",
                 "title": "Continue here after you've filled out all form elements",
@@ -72,7 +72,7 @@
             "key": "contact-form-email",
             "className": "contact-form"
           }
-        },        
+        },
         "description": {
           "tagName": "label",
           "text": "What is your email?",
@@ -107,7 +107,7 @@
           },
           "elements": [
             {
-              "tagName": "input",
+              "tagName": "button",
               "props": {
                 "type": "button",
                 "title": "Press here if you would like to go back to the previous form",
@@ -118,7 +118,7 @@
               }
             },
             {
-              "tagName": "input",
+              "tagName": "button",
               "props": {
                 "type": "submit",
                 "title": "Continue here after you've filled out all form elements",
@@ -141,7 +141,7 @@
             "key": "contact-form-message",
             "className": "contact-form"
           }
-        },        
+        },
         "description": {
           "tagName": "label",
           "text": "What is your message?",
@@ -175,7 +175,7 @@
           },
           "elements": [
             {
-              "tagName": "input",
+              "tagName": "button",
               "props": {
                 "type": "button",
                 "title": "Press here if you would like to go back to the previous form",
@@ -186,7 +186,7 @@
               }
             },
             {
-              "tagName": "input",
+              "tagName": "button",
               "props": {
                 "type": "submit",
                 "title": "Continue here after you've filled out all form elements",
@@ -208,7 +208,7 @@
             "key": "contact-result",
             "className": "contact-result"
           }
-        },        
+        },
         "description": {
           "tagName": "span",
           "text": "Thank you!",
