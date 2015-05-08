@@ -95,7 +95,7 @@
       "license": {
         "type": "BSD",
         "url": "https://github.com/localnerve/flux-react-example/blob/master/LICENSE.md",
-        "statement": "All code is licensed under the LocalNerve BSD License."
+        "statement": "All code licensed under LocalNerve BSD License."
       },
       "developer": {
         "name": "LocalNerve",
