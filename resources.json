@@ -16,7 +16,8 @@
           "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/home.md",
           "format": "markdown",
           "models": [
-            "LocalBusiness"
+            "LocalBusiness",
+            "SiteInfo"
           ],
           "pageTitle": "An Example Isomorphic Application"
         }
@@ -38,7 +39,8 @@
           "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/about.md",
           "format": "markdown",
           "models": [
-            "LocalBusiness"
+            "LocalBusiness",
+            "SiteInfo"
           ],
           "pageTitle": "About"
         }
@@ -60,7 +62,8 @@
           "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.json",
           "format": "json",
           "models": [
-            "LocalBusiness"
+            "LocalBusiness",
+            "SiteInfo"
           ],
           "pageTitle": "Contact"
         }
