@@ -82,6 +82,30 @@
         "postalCode": "04062",
         "postOfficeBoxNumber": "95"
       }
+    },
+    "SiteInfo": {
+      "site": {
+        "name": "PedalPulse",
+        "tagLine": "A Fluxible, Reactive reference app with a good prognosis.",
+        "bullets": ["Fluxible", "React", "Data Driven"]
+      },
+      "license": {
+        "type": "BSD",
+        "url": "https://github.com/localnerve/flux-react-example/blob/master/LICENSE.md",
+        "statement": "All code is licensed under the LocalNerve BSD License."
+      },
+      "developer": {
+        "name": "LocalNerve",
+        "byLine": "Developed by LocalNerve",
+        "url": "http://localnerve.com"
+      },
+      "social": {
+        "github": "https://github.com/localnerve/flux-react-example",
+        "twitter": "https://twitter.com/localnerve",
+        "facebook": "https://facebook.com/localnerve",
+        "linkedin": "https://www.linkedin.com/in/alexpaulgrant",
+        "googleplus": "https://plus.google.com/118303375063449115817/"
+      }
     }
   }
 }
