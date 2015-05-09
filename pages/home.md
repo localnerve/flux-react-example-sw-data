@@ -1,9 +1,9 @@
 ## Welcome To The Demo
 
-PedalPulse is an example isomorphic application that demonstrates a high performance app that uses multiple services and a quality process.
+PedalPulse is an example isomorphic application that demonstrates high performance and multiple backing services.
 
-The page content and navigation come from a backend service.
+This example is data-driven. All the content you see, including navigation, come from a [backend data service](https://github.com/localnerve/flux-react-example-data).
 
-It uses Facebook's [React](http://reactjs.com) and Yahoo's [Fluxible](http://fluxible.io).
+The application uses Facebook's [React](http://reactjs.com) and Yahoo's [Fluxible](http://fluxible.io).
 
-This example also showcases quality automation using cloud services. Checkout the [repo](https://github.com/localnerve/flux-react-example) for the full details.
+The [code](https://github.com/localnerve/flux-react-example) showcases a degree of quality automation using CI/CD.
