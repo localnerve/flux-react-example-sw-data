@@ -32,7 +32,7 @@
         "step": 1,
         "name": "email",
         "introduction": {
-          "text" "Almost there, keep going!"
+          "text": "Almost there, keep going!"
         },
         "label": {
           "text": "What is your email address?",
