@@ -55,11 +55,11 @@
         },
         "message": {
           "failure": {
-            "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
+            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly.",
             "help": "For reference, this was your message:"
           },
           "success": {
-            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly."
+            "text": "Your message has been sent. I'll be in touch with you within 48 hours."
           }
         }
       }
