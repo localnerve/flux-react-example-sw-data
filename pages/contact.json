@@ -53,6 +53,9 @@
       {
         "step": 3,
         "name": "result",
+        "introduction": {
+          "text": ""
+        },
         "label": {
           "failure": {
             "text": "Whoops!"
