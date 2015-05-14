@@ -4,230 +4,62 @@
     "headingText": "Contact Me",
     "introductionText": "Interested in creating an app like this? Drop me a line!",
     "stepFinal": 3,
+    "resultMessageFail": "Message Not Sent",
+    "resultMessageSuccess": "Message Sent Successfully",
+    "navigation": {
+      "previous": {
+        "text": "Back",
+        "help": "Press here if you would like to go back to the previous form"
+      },
+      "next": {
+        "text": "Next",
+        "help": "Press here after you've filled out all form elements",
+        "last": "Submit"
+      }
+    },
     "steps": [
       {
         "step": 0,
         "name": "name",
-        "container": {
-          "tagName": "form",
-          "props": {
-            "key": "contact-form-name",
-            "className": "contact-form"
-          }
-        },
-        "description": {
-          "tagName": "label",
+        "label": {
           "text": "What is your name?",
-          "props": {
-            "htmlFor": "name-input",
-            "key": "name-label"
-          }
-        },
-        "value": {
-          "tagName": "input",
-          "props": {
-            "type": "text",
-            "title": "Name",
-            "id": "name-input",
-            "name": "name-input",
-            "key": "name-input",
-            "ref": "name",
-            "className": "form-value-element",
-            "placeholder": "Enter your name",
-            "autoFocus": true,
-            "required": true,
-            "aria-required": true
-          }
-        },
-        "navigation": {
-          "container": {
-            "tagName": "div",
-            "props": {
-              "className": "form-navigation",
-              "key": "form-navigation-name"
-            }
-          },
-          "elements": [
-            {
-              "tagName": "button",
-              "props": {
-                "type": "submit",
-                "title": "Continue here after you've filled out all form elements",
-                "id": "submit",
-                "name": "submit",
-                "key": "name-submit",
-                "value": "Next"
-              },
-              "text": "Next"
-            }
-          ]
+          "help": "Enter your name"
         }
       },
       {
         "step": 1,
         "name": "email",
-        "previousElement": 0,
-        "container": {
-          "tagName": "form",
-          "props": {
-            "key": "contact-form-email",
-            "className": "contact-form"
-          }
-        },
-        "description": {
-          "tagName": "label",
-          "text": "What is your email?",
-          "props": {
-            "htmlFor": "email-input",
-            "key": "email-label"
-          }
-        },
-        "value": {
-          "tagName": "input",
-          "props": {
-            "type": "email",
-            "title": "Email",
-            "id": "email-input",
-            "name": "email-input",
-            "key": "email-input",
-            "ref": "email",
-            "className": "form-value-element",
-            "placeholder": "Enter your email address",
-            "autoFocus": true,
-            "required": true,
-            "aria-required": true
-          }
-        },
-        "navigation": {
-          "container": {
-            "tagName": "div",
-            "props": {
-              "key": "form-navigation-email",
-              "className": "form-navigation"
-            }
-          },
-          "elements": [
-            {
-              "tagName": "button",
-              "props": {
-                "type": "button",
-                "title": "Press here if you would like to go back to the previous form",
-                "id": "previous",
-                "name": "previous",
-                "key": "email-previous",
-                "value": "Previous"
-              },
-              "text": "Back"
-            },
-            {
-              "tagName": "button",
-              "props": {
-                "type": "submit",
-                "title": "Continue here after you've filled out all form elements",
-                "id": "submit",
-                "name": "submit",
-                "key": "email-submit",
-                "value": "Next"
-              },
-              "text": "Next"
-            }
-          ]
+        "label": {
+          "text": "What is your email address?",
+          "help": "Enter your email address"
         }
       },
       {
         "step": 2,
         "name": "message",
-        "previousElement": 0,
-        "container": {
-          "tagName": "form",
-          "props": {
-            "key": "contact-form-message",
-            "className": "contact-form"
-          }
-        },
-        "description": {
-          "tagName": "label",
+        "label": {
           "text": "What is your message?",
-          "props": {
-            "htmlFor": "message-input",
-            "key": "message-label"
-          }
-        },
-        "value": {
-          "tagName": "textarea",
-          "props": {
-            "id": "message-input",
-            "name": "message-input",
-            "key": "message-input",
-            "ref": "message",
-            "className": "form-value-element",
-            "title": "Message",
-            "placeholder": "Enter your message",
-            "autoFocus": true,
-            "required": true,
-            "aria-required": true
-          }
-        },
-        "navigation": {
-          "container": {
-            "tagName": "div",
-            "props": {
-              "key": "form-navigation-message",
-              "className": "form-navigation"
-            }
-          },
-          "elements": [
-            {
-              "tagName": "button",
-              "props": {
-                "type": "button",
-                "title": "Press here if you would like to go back to the previous form",
-                "id": "previous",
-                "name": "previous",
-                "key": "message-previous",
-                "value": "Previous"
-              },
-              "text": "Back"
-            },
-            {
-              "tagName": "button",
-              "props": {
-                "type": "submit",
-                "title": "Continue here after you've filled out all form elements",
-                "id": "submit",
-                "name": "submit",
-                "key": "message-submit",
-                "value": "Submit"
-              },
-              "text": "Submit"
-            }
-          ]
+          "help": "Enter your message"
         }
       },
       {
         "step": 3,
         "name": "result",
-        "container": {
-          "tagName": "div",
-          "props": {
-            "key": "contact-result",
-            "className": "contact-result"
+        "label": {
+          "failure": {
+            "text": "Whoops!"
+          },
+          "success": {
+            "text": "Thank you!"
           }
         },
-        "description": {
-          "tagName": "span",
-          "text": "Thank you!",
-          "failureText": "Whoops!",
-          "props": {
-            "key": "result-label"
-          }
-        },
-        "value": {
-          "tagName": "p",
-          "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
-          "failureText": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly.",
-          "props": {
-            "key": "result-element"
+        "message": {
+          "failure": {
+            "text": "Your message has been sent. I'll be in touch with you within 48 hours.",
+            "help": "For reference, this was your message:"
+          },
+          "success": {
+            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly."
           }
         }
       }
