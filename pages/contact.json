@@ -2,9 +2,8 @@
   "contact": {
     "name": "contact",
     "headingText": "Contact Me",
-    "introductionText": "Interested in creating an app like this? Drop me a line!",
     "stepFinal": 3,
-    "resultMessageFail": "Message Not Sent",
+    "resultMessageFail": "Message Not Sent, press here to Retry.",
     "resultMessageSuccess": "Message Sent Successfully",
     "navigation": {
       "previous": {
@@ -21,6 +20,9 @@
       {
         "step": 0,
         "name": "name",
+        "introduction": {
+          "text": "Interested in creating an app like this? Drop me a line!"
+        },
         "label": {
           "text": "What is your name?",
           "help": "Enter your name"
@@ -29,6 +31,9 @@
       {
         "step": 1,
         "name": "email",
+        "introduction": {
+          "text" "Almost there, keep going!"
+        },
         "label": {
           "text": "What is your email address?",
           "help": "Enter your email address"
@@ -37,6 +42,9 @@
       {
         "step": 2,
         "name": "message",
+        "introduction": {
+          "text": "Last step. Remember, this is a demo app."
+        },
         "label": {
           "text": "What is your message?",
           "help": "Enter your message"
@@ -55,7 +63,7 @@
         },
         "message": {
           "failure": {
-            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly.",
+            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly, or click the retry button.",
             "help": "For reference, this was your message:"
           },
           "success": {
