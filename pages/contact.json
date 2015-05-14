@@ -3,7 +3,7 @@
     "name": "contact",
     "headingText": "Contact Me",
     "stepFinal": 3,
-    "resultMessageFail": "Message Not Sent, press here to Retry.",
+    "resultMessageFail": "Message Not Sent, click to Retry.",
     "resultMessageSuccess": "Message Sent Successfully",
     "navigation": {
       "previous": {
@@ -66,7 +66,7 @@
         },
         "message": {
           "failure": {
-            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly, or click the retry button.",
+            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly, or click Retry.",
             "help": "For reference, this was your message:"
           },
           "success": {
