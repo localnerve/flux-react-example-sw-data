@@ -66,8 +66,11 @@
         },
         "message": {
           "failure": {
-            "text": "Our contact service is temporarily unavailable. Please consider emailing your message to us directly, or click Retry.",
-            "help": "For reference, this was your message:"
+            "text": "Our contact service is temporarily unavailable. We apologize for the inconvenience. Here's some help:",
+            "help1": "Re-send your message",
+            "help2": "Send your message via email",
+            "help3": "Copy your message to clipboard",
+            "help4": "Give us a call"
           },
           "success": {
             "text": "Your message has been sent. I'll be in touch with you within 48 hours."
