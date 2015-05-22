@@ -67,9 +67,9 @@
         "message": {
           "failure": {
             "text": "Our contact service is temporarily unavailable. However, your message is not lost, here's some help:",
-            "email": "Send your message via email",
-            "emailHelp": "This link contains your message",
-            "clip": "Copy your message to clipboard",
+            "email": "Email your message",
+            "emailHelp": "The link above contains your message",
+            "copy": "Copy your message",
             "call": "Give us a call"
           },
           "success": {
