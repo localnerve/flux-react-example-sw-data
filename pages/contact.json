@@ -68,10 +68,10 @@
           "failure": {
             "text": "Our contact service is temporarily unavailable. Here's some help to deliver your message:",
             "email": "Email your message",
-            "emailHelp": "Starts an email with your message",
+            "emailHelp": "Start an email with your message",
             "copy": "Copy your message",
             "copyHelp": "Copy your message to clipboard",
-            "call": "Just call us"
+            "call": "Call us"
           },
           "success": {
             "text": "Your message has been sent. I'll be in touch with you within 48 hours."
