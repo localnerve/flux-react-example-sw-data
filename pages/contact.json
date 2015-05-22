@@ -66,10 +66,9 @@
         },
         "message": {
           "failure": {
-            "text": "Our contact service is temporarily unavailable. We apologize for the inconvenience. Your message is not lost, here's some help:",
-            "retry": "Retry",
+            "text": "Our contact service is temporarily unavailable. However, your message is not lost, here's some help:",
             "email": "Send your message via email",
-            "emailHelp": "This link launches your email client with your message",
+            "emailHelp": "This link contains your message",
             "clip": "Copy your message to clipboard",
             "call": "Give us a call"
           },
