@@ -66,11 +66,12 @@
         },
         "message": {
           "failure": {
-            "text": "Our contact service is temporarily unavailable. We apologize for the inconvenience. Here's some help:",
-            "help1": "Re-send your message",
-            "help2": "Send your message via email",
-            "help3": "Copy your message to clipboard",
-            "help4": "Give us a call"
+            "text": "Our contact service is temporarily unavailable. We apologize for the inconvenience. Your message is not lost, here's some help:",
+            "retry": "Retry",
+            "email": "Send your message via email",
+            "emailHelp": "This link launches your email client with your message",
+            "clip": "Copy your message to clipboard",
+            "call": "Give us a call"
           },
           "success": {
             "text": "Your message has been sent. I'll be in touch with you within 48 hours."
