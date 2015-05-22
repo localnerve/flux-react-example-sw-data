@@ -66,11 +66,12 @@
         },
         "message": {
           "failure": {
-            "text": "Our contact service is temporarily unavailable. However, your message is not lost, here's some help:",
+            "text": "Our contact service is temporarily unavailable. Here's some help to deliver your message:",
             "email": "Email your message",
-            "emailHelp": "The link above contains your message",
+            "emailHelp": "Start an email with your message",
             "copy": "Copy your message",
-            "call": "Give us a call"
+            "copyHelp": "Copy your messsage to clipboard",
+            "call": "Just call us"
           },
           "success": {
             "text": "Your message has been sent. I'll be in touch with you within 48 hours."
