@@ -7,6 +7,7 @@
       "label": "Home",
       "component": "SinglePage",
       "mainNav": true,
+      "background": "3",
       "order": 0,
       "priority": 1,
       "action": {
@@ -30,6 +31,7 @@
       "label": "About",
       "component": "SinglePage",
       "mainNav": true,
+      "background": "4",
       "order": 1,
       "priority": 1,
       "action": {
@@ -53,6 +55,7 @@
       "label": "Contact",
       "component": "Contact",
       "mainNav": true,
+      "background": "5",
       "order": 2,
       "priority": 1,
       "action": {
