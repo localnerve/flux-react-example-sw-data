@@ -1,5 +1,29 @@
 {
   "routes": {
+    "404": {
+      "path": "/404",
+      "method": "get",
+      "page": "404",
+      "label": "Not Found",
+      "component": "SinglePage",
+      "mainNav": false,
+      "background": "9",
+      "order": 0,
+      "priority": 0,
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "404",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/404.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "Page Not Found"
+        }
+      }
+    },
     "home": {
       "path": "/",
       "method": "get",
