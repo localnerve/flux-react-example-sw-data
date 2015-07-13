@@ -7,7 +7,7 @@
       "label": "Not Found",
       "component": "SinglePage",
       "mainNav": false,
-      "background": "9",
+      "background": "",
       "order": 0,
       "priority": 0,
       "action": {
@@ -21,6 +21,30 @@
             "SiteInfo"
           ],
           "pageTitle": "Page Not Found"
+        }
+      }
+    },
+    "500": {
+      "path": "/500",
+      "method": "get",
+      "page": "500",
+      "label": "Error",
+      "component": "SinglePage",
+      "mainNav": false,
+      "background": "",
+      "order": 0,
+      "priority": 0,
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "500",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/500.md",
+          "format": "markdown",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "Application Error"
         }
       }
     },
