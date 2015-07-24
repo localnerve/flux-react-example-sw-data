@@ -43,7 +43,7 @@
         "step": 2,
         "name": "message",
         "introduction": {
-          "text": "Last step. Remember, this is a demo app."
+          "text": "Last step. Remember, the mail queue is disconnected."
         },
         "label": {
           "text": "What is your message?",

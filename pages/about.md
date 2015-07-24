@@ -1,5 +1,7 @@
 ## About This Demo
 
-This is an example about page.
+This demo is only meant to be a reference application. It serves as a possible source of inspiration for solving problems during isomorphic application development, or as a basis for a [progressive application](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/).
 
-This site is an example of techniques using isomorphic Flux and React via [Fluxible](http://fluxible.io)
+The outgoing mail queue is currently disconnected from this application on Heroku, so contact form completions will not succeed.
+
+Please visit the project [documentation](https://github.com/localnerve/flux-react-example/wiki) for more detailed info, or contact me @localnerve.

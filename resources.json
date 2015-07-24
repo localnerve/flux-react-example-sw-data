@@ -139,7 +139,7 @@
     },
     "SiteInfo": {
       "site": {
-        "name": "PedalPulse",
+        "name": "Contactor",
         "tagLine": "A Fluxible, Reactive reference app with a good prognosis.",
         "bullets": ["Fluxible", "React", "Data Driven"]
       },
