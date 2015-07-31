@@ -55,7 +55,7 @@
       "label": "Home",
       "component": "ContentPage",
       "mainNav": true,
-      "background": "3",
+      "background": "3.jpg",
       "order": 0,
       "priority": 1,
       "action": {
@@ -79,7 +79,7 @@
       "label": "About",
       "component": "ContentPage",
       "mainNav": true,
-      "background": "4",
+      "background": "4.jpg",
       "order": 1,
       "priority": 1,
       "action": {
@@ -103,7 +103,7 @@
       "label": "Contact",
       "component": "Contact",
       "mainNav": true,
-      "background": "5",
+      "background": "5.jpg",
       "order": 2,
       "priority": 1,
       "action": {
