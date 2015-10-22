@@ -1,5 +1,5 @@
-# flux-react-example-data
-> The data for flux-react-example
+# flux-react-example-sw-data
+> The data for flux-react-example-sw
 
 This data service uses the github api as the data service provider. No mediation happening here, just serving data that contains references to other data.
 
