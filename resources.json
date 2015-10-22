@@ -48,6 +48,30 @@
         }
       }
     },
+    "settings": {
+      "path": "/settings",
+      "method": "get",
+      "page": "settings",
+      "label": "Settings",
+      "component": "Settings",
+      "mainNav": false,
+      "background": "",
+      "order": "0",
+      "priority": "2",
+      "action": {
+        "name": "page",
+        "params": {
+          "resource": "settings",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/settings.json",
+          "format": "json",
+          "models": [
+            "LocalBusiness",
+            "SiteInfo"
+          ],
+          "pageTitle": "Contact"
+        }
+      }
+    },
     "home": {
       "path": "/",
       "method": "get",
