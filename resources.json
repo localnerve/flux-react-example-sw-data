@@ -14,7 +14,7 @@
         "name": "page",
         "params": {
           "resource": "404",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/404.md",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/404.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -38,7 +38,7 @@
         "name": "page",
         "params": {
           "resource": "500",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/500.md",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/500.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -62,7 +62,7 @@
         "name": "page",
         "params": {
           "resource": "settings",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/settings.json",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/settings.json",
           "format": "json",
           "models": [
             "LocalBusiness",
@@ -86,7 +86,7 @@
         "name": "page",
         "params": {
           "resource": "home",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/home.md",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/home.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -110,7 +110,7 @@
         "name": "page",
         "params": {
           "resource": "about",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/about.md",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/about.md",
           "format": "markdown",
           "models": [
             "LocalBusiness",
@@ -134,7 +134,7 @@
         "name": "page",
         "params": {
           "resource": "contact",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-data/contents/pages/contact.json",
+          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/contact.json",
           "format": "json",
           "models": [
             "LocalBusiness",
@@ -169,7 +169,7 @@
       },
       "license": {
         "type": "BSD",
-        "url": "https://github.com/localnerve/flux-react-example/blob/master/LICENSE.md",
+        "url": "https://github.com/localnerve/flux-react-example-sw/blob/master/LICENSE.md",
         "statement": "All code licensed under LocalNerve BSD License."
       },
       "developer": {
@@ -178,7 +178,7 @@
         "url": "http://localnerve.com"
       },
       "social": {
-        "github": "https://github.com/localnerve/flux-react-example",
+        "github": "https://github.com/localnerve/flux-react-example-sw",
         "twitter": "https://twitter.com/localnerve",
         "facebook": "https://facebook.com/localnerve",
         "linkedin": "https://www.linkedin.com/in/alexpaulgrant",
