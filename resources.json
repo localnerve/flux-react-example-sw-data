@@ -53,9 +53,9 @@
       "method": "get",
       "page": "settings",
       "label": "Settings",
-      "component": "Settings",
+      "component": "Modal",
       "mainNav": false,
-      "background": "",
+      "background": "3.jpg",
       "order": "0",
       "priority": "2",
       "action": {
@@ -68,7 +68,7 @@
             "LocalBusiness",
             "SiteInfo"
           ],
-          "pageTitle": "Contact"
+          "pageTitle": "Settings"
         }
       }
     },
