@@ -56,8 +56,8 @@
       "component": "Modal",
       "mainNav": false,
       "background": "3.jpg",
-      "order": "0",
-      "priority": "2",
+      "order": 0,
+      "priority": 2,
       "action": {
         "name": "page",
         "params": {
