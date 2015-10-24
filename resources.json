@@ -18,7 +18,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "Page Not Found"
         }
@@ -42,33 +43,10 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "Application Error"
-        }
-      }
-    },
-    "settings": {
-      "path": "/settings",
-      "method": "get",
-      "page": "settings",
-      "label": "Settings",
-      "component": "Settings",
-      "mainNav": false,
-      "background": "",
-      "order": "0",
-      "priority": "2",
-      "action": {
-        "name": "page",
-        "params": {
-          "resource": "settings",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/settings.json",
-          "format": "json",
-          "models": [
-            "LocalBusiness",
-            "SiteInfo"
-          ],
-          "pageTitle": "Contact"
         }
       }
     },
@@ -90,7 +68,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "An Example Isomorphic Application"
         }
@@ -114,7 +93,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "About"
         }
@@ -138,7 +118,8 @@
           "format": "json",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "Contact"
         }
@@ -184,6 +165,17 @@
         "linkedin": "https://www.linkedin.com/in/alexpaulgrant",
         "googleplus": "https://plus.google.com/118303375063449115817/"
       }
+    },
+    "Settings": {
+      "component": "Settings",
+      "resource": "settings",
+      "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/settings.json",
+      "format": "json",
+      "models": [
+        "LocalBusiness",
+        "SiteInfo",
+        "Settings"
+      ]
     }
   }
 }
