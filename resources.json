@@ -48,30 +48,6 @@
         }
       }
     },
-    "settings": {
-      "path": "/settings",
-      "method": "get",
-      "page": "settings",
-      "label": "Settings",
-      "component": "Modal",
-      "mainNav": false,
-      "background": "3.jpg",
-      "order": 0,
-      "priority": 2,
-      "action": {
-        "name": "page",
-        "params": {
-          "resource": "settings",
-          "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/settings.json",
-          "format": "json",
-          "models": [
-            "LocalBusiness",
-            "SiteInfo"
-          ],
-          "pageTitle": "Settings"
-        }
-      }
-    },
     "home": {
       "path": "/",
       "method": "get",
@@ -184,6 +160,12 @@
         "linkedin": "https://www.linkedin.com/in/alexpaulgrant",
         "googleplus": "https://plus.google.com/118303375063449115817/"
       }
+    },
+    "Settings": {
+      "component": "settings",
+      "resource": "settings",
+      "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/settings.json",
+      "format": "json"
     }
   }
 }
