@@ -18,7 +18,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "Page Not Found"
         }
@@ -42,7 +43,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "Application Error"
         }
@@ -66,7 +68,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "An Example Isomorphic Application"
         }
@@ -90,7 +93,8 @@
           "format": "markdown",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "About"
         }
@@ -114,7 +118,8 @@
           "format": "json",
           "models": [
             "LocalBusiness",
-            "SiteInfo"
+            "SiteInfo",
+            "Settings"
           ],
           "pageTitle": "Contact"
         }
