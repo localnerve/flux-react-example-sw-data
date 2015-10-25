@@ -1,6 +1,28 @@
 {
   "settings": {
     "name": "settings",
-    "headingText": "Settings"
+    "heading": "Settings",
+    "settingsNotSupported": "Settings Not Supported",
+    "pushNotifications": {
+      "enable": "Enable Push Notifications",
+      "notificationsNotSupported": "Notifications Not Supported",
+      "notificationsBlocked": "Notifications Blocked",
+      "pushMessagingNotSupported": "Push Messaging Not Supported",
+      "topics": [{
+        "label": "Alerts",
+        "tag": "push-alerts-tag"
+      }, {
+        "label": "Upcoming Events",
+        "tag": "push-upcoming-events-tag"
+      }]
+    },
+    "backgroundSync": {
+      "enable": "Enable Background Synchronization",
+      "notSupported": "Background Synchronization Not Supported"
+    },
+    "demo": {
+      "pushNotification": true,
+      "backgroundSync": true
+    }
   }
 }
