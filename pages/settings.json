@@ -17,8 +17,8 @@
       }]
     },
     "backgroundSync": {
-      "enable": "Enable Background Synchronization",
-      "notSupported": "Background Synchronization Not Supported"
+      "enable": "Enable Background Sync",
+      "notSupported": "Background Sync Not Supported"
     },
     "demo": {
       "pushNotification": true,
