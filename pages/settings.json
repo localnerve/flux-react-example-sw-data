@@ -2,7 +2,7 @@
   "settings": {
     "name": "settings",
     "heading": "Settings",
-    "settingsNotSupported": "Settings Not Supported",
+    "settingsNotSupported": "Settings Not Available On This Device",
     "pushNotifications": {
       "enable": "Enable Push Notifications",
       "notificationsNotSupported": "Notifications Not Supported",
