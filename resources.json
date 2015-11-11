@@ -167,7 +167,8 @@
       }
     },
     "Settings": {
-      "component": "Settings",
+      "component": "settings",
+      "split": true,
       "resource": "settings",
       "url": "https://api.github.com/repos/localnerve/flux-react-example-sw-data/contents/pages/settings.json",
       "format": "json",
